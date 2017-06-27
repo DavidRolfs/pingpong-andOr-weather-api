@@ -1,14 +1,22 @@
 {
-  "name": "ping-pong",
+  "name": "pingppong",
   "description": "",
   "main": "index.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/DavidRolfs/pingpong-api",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "authors": [
+    "David Rolfs <Davidrolfs15@gmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.18.1"
+  }
 }
