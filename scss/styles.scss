@@ -1,0 +1,41 @@
+$gray : #d3d3d3;
+$green : #75B975;
+
+.box {
+  background: $gray;
+  border: 3px solid black;
+  padding: 40px 80px;
+  .button {
+    font-weight: bold;
+    text-align: center;
+    background: $green;
+    color: white;
+  }
+}
+// SASS BOX EXAMPLE
+.dice {
+  height: 300px;
+  width: 300px;
+  background-color: lime;
+  border: 2px outset orange;
+  // THIS IS WHERE FLEXBOX STARTS
+  display: flex;
+  justify-content: space-around;;
+  flex-direction: column;
+
+
+  .pip {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: black;
+  }
+
+
+  .pip:nth-child(2) {
+    align-self: flex-end;
+  }
+  .pip:nth-child(4) {
+    align-self: flex-end;
+  }
+}
